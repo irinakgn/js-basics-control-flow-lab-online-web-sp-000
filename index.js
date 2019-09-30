@@ -1,5 +1,6 @@
 function scuberGreetingForFeet(numberOfFeet){
   // Write your code here!
+<<<<<<< HEAD
   let reply;
 
   if (numberOfFeet  <= 400) {
@@ -10,6 +11,15 @@ function scuberGreetingForFeet(numberOfFeet){
     reply = "No can do.";
   }
   return reply
+=======
+let result
+if (numberOfFeet is <= 400) {
+  result ="This one is on me!";
+else if (numberOfFeet is >2000)
+  result = "I will gladly take your thirty bucks."}
+
+  return result
+>>>>>>> 005ef75b26aae5730004a844b17355cc730a098d
 }
 
 function ternaryCheckCity(city){
@@ -25,6 +35,7 @@ function ternaryCheckCity(city){
 
 function switchOnCharmFromTip(tip){
   // Write your code here!
+<<<<<<< HEAD
   switch (tip) {
     case 'generous':
        return 'Thank you so much.'
@@ -36,4 +47,6 @@ function switchOnCharmFromTip(tip){
      return 'Bye.'
       break;
   }
+=======
+>>>>>>> 005ef75b26aae5730004a844b17355cc730a098d
 }
